@@ -8,6 +8,7 @@ import 'package:news_us_tech/features/daily_news/presentation/bloc/article/remot
 import 'package:news_us_tech/features/daily_news/presentation/pages/article_detail/daily_news_detail.dart';
 import 'package:news_us_tech/features/daily_news/presentation/pages/saved_article/saved_article.dart';
 import 'package:news_us_tech/features/daily_news/presentation/widgets/article_tile.dart';
+import 'package:news_us_tech/src/settings/settings_view.dart';
 
 class DailyNews extends StatefulWidget {
   const DailyNews({Key? key}) : super(key: key);
@@ -46,6 +47,13 @@ class _DailyNewsState extends State<DailyNews> {
         ),
       ),
       actions: [
+        IconButton(
+            onPressed: () =>
+                Navigator.pushNamed(context, SettingsView.routeName),
+            icon: Icon(
+              Icons.settings,
+              color: Theme.of(context).primaryColor,
+            )),
         BlocBuilder<RemoteArticleBloc, RemoteArticleState>(
             builder: (context, state) {
           return IconButton(
