@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109288031139",
+    "project_id": "adhika-portfolio",
+    "storage_bucket": "adhika-portfolio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109288031139:android:7e9e2092d8e41175981016",
+        "android_client_info": {
+          "package_name": "com.dhikadhiwijna.news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109288031139-gc9kel4dt9innorlqvp3r93qciv2dpf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi0kgRJr8c-LZ4Oh9Nt0EtwtSABvHjhGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109288031139-gc9kel4dt9innorlqvp3r93qciv2dpf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
